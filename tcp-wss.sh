@@ -262,6 +262,7 @@ cat >/etc/shadowsocks-libev/config.json<<EOF
     "password":"$v2uuid",
     "timeout":600,
     "method":"aes-256-gcm"
+    "DNS_ADDRS":"8.8.8.8,8.8.4.4"
 }
 EOF
 
